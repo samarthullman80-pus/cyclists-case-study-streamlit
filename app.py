@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 st.set_page_config(page_title="Cyclistic Case Study", layout="wide")
 
 st.title("🚲 Cyclistic Case Study — Member vs Casual Riders")
-st.caption("Upload a Divvy-style trip dataset (CSV or Excel) to run the analysis")
+st.caption("Upload your dataset (CSV or Excel) to run the analysis")
 
 # ---------------------------------------------------------------
 # File upload (replaces the old hardcoded CSV_PATH)
